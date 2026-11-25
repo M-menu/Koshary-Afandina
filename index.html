@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#E32219">
+  <meta name="description" content="منيو كشري وحلواني أفندينا - كشري، طواجن، ميكسات، وايت صوص، اسباجتي، وحلو - اطلب الآن عبر واتساب">
+  <title>كشري وحلواني أفندينا | المنيو</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="brand-badge">
+      <img class="brand-logo" src="assets/afndena-logo.png" alt="">
+      <strong>أفندينا</strong>
+    </div>
+    <a id="top-call" class="call" href="#"></a>
+  </div>
+
+  <header class="hero">
+    <div class="hero-text">
+      <span class="hero-pill">كشري وحلواني</span>
+      <h1>أفندينا</h1>
+      <p id="tagline"></p>
+    </div>
+    <div class="hero-card">
+      <div class="offer-tag">وجبة التوفير</div>
+      <strong>كشري + توست + سلطة + حلو</strong>
+      <span class="offer-price">53 ج.م</span>
+    </div>
+  </header>
+
+  <nav id="cat-nav" class="cat-nav" aria-label="أقسام المنيو"></nav>
+
+  <div class="search-wrap">
+    <input id="search" type="search" placeholder="ابحث عن صنف (كشري، طاجن، وايت صوص، ارز بلبن...)">
+  </div>
+
+  <main id="menu" class="menu"></main>
+
+  <footer class="footer">
+    <h2>فروعنا</h2>
+    <ul id="branches" class="branches"></ul>
+    <h3 class="phones-title">أرقام التوصيل (ORDER NOW)</h3>
+    <div id="phones" class="phones"></div>
+    <div id="socials" class="socials"></div>
+  </footer>
+
+  <aside id="order-bar" class="order-bar" hidden>
+    <div><b id="order-count">0</b> <span>صنف</span> <strong id="order-total"></strong></div>
+    <button id="checkout" type="button">اطلب عبر واتساب</button>
+  </aside>
+
+  <script src="menu-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
